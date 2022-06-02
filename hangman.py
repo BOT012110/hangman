@@ -2,7 +2,7 @@ import random
 import string
 
 from words import words
-
+ 
 
 def get_the_word(words):
     word = random.choice(words)   

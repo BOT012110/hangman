@@ -1,9 +1,11 @@
 import random
 import string
 
+from regex import A
+# import words from file
 from words import words
  
-
+# get word from file and filter word with "-" and " " between the letters
 def get_the_word(words):
     word = random.choice(words)   
     while "-" in word or " " in word:
